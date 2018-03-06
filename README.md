@@ -1,16 +1,23 @@
-# ticket-market
+# Ticket Market Analysis
 
-We investigate the evolution of secondary ticket markets for major theatre shows in New York. We gathered data from three market places that combined contribute to 40\% of tickets sold for the plays "Hamilton", "The book of Mormon", "Angels in America" and "Farinelli and the King". Our data consists of over 150,000 tickets gathered across all categories.  
+We investigate the evolution of secondary ticket markets for major theatre shows in New York.
+
+# Dataset
+
+We gathered data from three market places that combined contribute to 40\% of tickets sold for the plays "Hamilton", "The book of Mormon", "Angels in America" and "Farinelli and the King". Our data consists of over 150,000 tickets gathered across all categories.  
 
 # General Patterns
-
 We study the evolution of ticket prices for the show "Hamilton" as the date of the show approaches.
+
+## Price Drop
+
+One striking feature we observe consistently is a huge drop in price between weeks 20 through 30 leading to the show.
 
 ![Evolution of Hamilton prices](images/evolutionhamiltonprices.png)
 
-The most striking feature of the graph lies in the huge drop in price between weeks 20 through 30. This feature is present throughout our datasets, regardless of marketplace or show. This feature is similar to what happens for Super Bowl pricing patterns. We refer the reader to this interesting podcast on the phenomenon https://www.npr.org/sections/money/2018/02/02/582861315/episode-822-the-shortest-super-bowl.
+This feature is similar to what happens for Super Bowl pricing patterns. We refer the reader to this interesting podcast on the phenomenon https://www.npr.org/sections/money/2018/02/02/582861315/episode-822-the-shortest-super-bowl.
 
-# Supply
+## Supply
 
 We now plot the number of tickets available for the show per week and notice that the graph seems to correlate negatively with that of ticket pricing above.
 
@@ -20,11 +27,11 @@ The correlation coefficient between price and ticket availability is -0.36. Howe
 
 ![Correlation two weeks prior](images/correlation2weeksprior.png)
 
-We indeed have a strong correlation between the two, with a p-value close to 0.1\%.
+With a p-value close to 0.1\%, we confidently may reject the null-hypothesis that the price and availability are uncorrelated.
 
 # Relationship between the three different market places 
 
-We now investigate how prices from one market place affect that of another. We start by plotting the price evolution.
+We now have a look at how prices from one market place affect that of another. We start by plotting the price evolution.
 
 ![Price Evolution](images/prices.png)
 
@@ -40,7 +47,9 @@ We notice that marketplace1 and marketplace3 are particularly correlated with pr
 
 # Further Investigations
 
-* Predict the price drops and their shape
+This project is stil work in progress. In particular we would like to investigate better the nature of the price drops: predict them and their shape.
+
+
 
 
 
