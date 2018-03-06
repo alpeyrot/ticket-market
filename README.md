@@ -24,11 +24,11 @@ We indeed have a strong correlation between the two, with a p-value close to 0.1
 
 # Relationship between the three different market places 
 
-We now investigate how prices from one market place that of another. We start by plotting the price evolution.
+We now investigate how prices from one market place affect that of another. We start by plotting the price evolution.
 
 ![Price Evolution](images/prices.png)
 
-We notice that while marketplace1 and marketplace2 seem more stable, marketplace3 is highly volatile. One of the reasons for this comes from the fact that marketplace3 owns a smaller percentage of the marketshare, so that it is more sensitive to outliers. Indeed, the market share is divided as follows.
+We notice that while marketplace1 and marketplace2 seem more stable, marketplace3 is highly volatile. One of the reasons for this comes from the fact that marketplace3 owns a smaller percentage of the market share, so that it is more sensitive to outliers. Indeed, the market share is divided as follows.
 
 ![Market share](images/marketshare.png)
 
