@@ -1,4 +1,4 @@
-# tickets-analyze
+# ticket-market
 
 We investigate the evolution of secondary ticket markets for major theatre shows in New York. We gathered data from three market places that combined contribute to 40\% of tickets sold for the plays "Hamilton", "The book of Mormon", "Angels in America" and "Farinelli and the King". Our data consists of over 150,000 tickets gathered across all categories.  
 
