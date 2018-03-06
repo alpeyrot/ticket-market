@@ -10,7 +10,7 @@ We study the evolution of ticket prices for the show "Hamilton" as the date of t
 
 The most striking feature of the graph lies in the huge drop in price between weeks 20 through 30. This feature is present throughout our datasets, regardless of marketplace or show. This feature is similar to what happens for Super Bowl pricing patterns. We refer the reader to this interesting podcast on the phenomenon https://www.npr.org/sections/money/2018/02/02/582861315/episode-822-the-shortest-super-bowl.
 
-#Supply
+# Supply
 
 We now plot the number of tickets available for the show per week and notice that the graph seems to correlate negatively with that of ticket pricing above.
 
